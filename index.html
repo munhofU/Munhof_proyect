@@ -6,128 +6,148 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MunhoF_dev</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="D:\usuarios\alumno\documentos\Munhof_proyect\estilo.css"/>
+    <link rel="stylesheet" type="text/css" href="E:\munhof_web\Munhof_proyect\estilo.css"/>
 </head>
 
-
-<header>
+<body>
+    <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
+        <div class="container-fluid">
         <a class="navbar-brand" href="#index.html">MunhoF</a>
         <!--tengo que activar el boton para que funcione correctamente-->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#quien_soy">¿Quien soy?</a>
-                <a class="nav-link active" href="#proyectos">Proyectos</a>
-                <a class="nav-link active" href="#contactame">contactame</a>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#quien_soy">¿Quien soy?</a>
+                    <a class="nav-link active" href="#proyectos">Proyectos</a>
+                    <a class="nav-link active" href="#contactame">contactame</a>
+                </div>
             </div>
         </div>
-    </div>
     </nav>
-</header>
+    </header>
 
-<body>
-    <div id="titulo" class="titular">
-        <h1>MunhoF < dev > </h1>
-        <h4>Aventuras en el desarrollo</h3>
+    <div id="titulo" class="container-fluid container-fluid-lg">
+        <h1 class="text-center">MunhoF &lt;dev&gt; </h1>         
     </div>
+
 
     <section id="quien_soy">
 
-        <h2>Sobre mí</h2>
-        <div class = "carta">
-            <h3>Quien soy</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut nisl nec est malesuada condimentum. Cras tellus metus, gravida vel nibh eget, fringilla dictum diam. Maecenas id nisi euismod, mattis neque non, cursus sem. Nullam a pharetra erat. Aliquam vestibulum vehicula augue, quis fermentum diam. Aenean commodo maximus urna, sed hendrerit enim elementum quis. Donec tincidunt mi sem, nec feugiat magna ullamcorper in. Nullam vulputate venenatis posuere. Sed quis bibendum elit.
-            </p>
-        </div>
+    <div id="titulo_quien_soy" class="container-fluid container-fluid-lg" >
+        <h2 class="text-center">¿Quien soy?</h2>         
+    </div>
 
-        <div class = "carta">
-            <h3>Mi formación</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut nisl nec est malesuada condimentum. Cras tellus metus, gravida vel nibh eget, fringilla dictum diam. Maecenas id nisi euismod, mattis neque non, cursus sem. Nullam a pharetra erat. Aliquam vestibulum vehicula augue, quis fermentum diam. Aenean commodo maximus urna, sed hendrerit enim elementum quis. Donec tincidunt mi sem, nec feugiat magna ullamcorper in. Nullam vulputate venenatis posuere. Sed quis bibendum elit.
-            </p>
+    <div class="container-fluid">
+        <div class="row">
+        <div class="col-sm-4">
+          <div class="card text-white bg-dark back_light" id="carta-presentacion">
+            <div class="card-body">
+              <h5 class="card-title text-center">¿Quien soy?</h5>
+              <p class="card-text">            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut nisl nec est malesuada condimentum. Cras tellus metus, gravida vel nibh eget, fringilla dictum diam. Maecenas id nisi euismod, mattis neque non, cursus sem. Nullam a pharetra erat. Aliquam vestibulum vehicula augue, quis fermentum diam. Aenean commodo maximus urna, sed hendrerit enim elementum quis. Donec tincidunt mi sem, nec feugiat magna ullamcorper in. Nullam vulputate venenatis posuere. Sed quis bibendum elit.a natural lead-in to additional content.</p>
+            </div>
+          </div>
         </div>
+        <div class="col-sm-4">
+          <div class="card text-white bg-dark back_light" id="carta-presentacion">
+            <div class="card-body">
+              <h5 class="card-title text-center">Mi formación</h5>
+              <p class="card-text">            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut nisl nec est malesuada condimentum. Cras tellus metus, gravida vel nibh eget, fringilla dictum diam. Maecenas id nisi euismod, mattis neque non, cursus sem. Nullam a pharetra erat. Aliquam vestibulum vehicula augue, quis fermentum diam. Aenean commodo maximus urna, sed hendrerit enim elementum quis. Donec tincidunt mi sem, nec feugiat magna ullamcorper in. Nullam vulputate venenatis posuere. Sed quis bibendum elit.a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card text-white bg-dark back_light" id="carta-presentacion">
+              <div class="card-body">
+                <h5 class="card-title text-center">Mis habilidades</h5>
+                <p class="card-text">            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut nisl nec est malesuada condimentum. Cras tellus metus, gravida vel nibh eget, fringilla dictum diam. Maecenas id nisi euismod, mattis neque non, cursus sem. Nullam a pharetra erat. Aliquam vestibulum vehicula augue, quis fermentum diam. Aenean commodo maximus urna, sed hendrerit enim elementum quis. Donec tincidunt mi sem, nec feugiat magna ullamcorper in. Nullam vulputate venenatis posuere. Sed quis bibendum elit.a natural lead-in to additional content.</p>
+            </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    
 
-        <div class = "carta">
-            <h3>Mis habilidades</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut nisl nec est malesuada condimentum. Cras tellus metus, gravida vel nibh eget, fringilla dictum diam. Maecenas id nisi euismod, mattis neque non, cursus sem. Nullam a pharetra erat. Aliquam vestibulum vehicula augue, quis fermentum diam. Aenean commodo maximus urna, sed hendrerit enim elementum quis. Donec tincidunt mi sem, nec feugiat magna ullamcorper in. Nullam vulputate venenatis posuere. Sed quis bibendum elit.
-            </p>
-        </div>
+    <!--<div class = "container container-xs container-lg" id="carta-presentacion">
+        <h3>Mi formación</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ut nisl nec est malesuada condimentum. Cras tellus metus, gravida vel nibh eget, fringilla dictum diam. Maecenas id nisi euismod, mattis neque non, cursus sem. Nullam a pharetra erat. Aliquam vestibulum vehicula augue, quis fermentum diam. Aenean commodo maximus urna, sed hendrerit enim elementum quis. Donec tincidunt mi sem, nec feugiat magna ullamcorper in. Nullam vulputate venenatis posuere. Sed quis bibendum elit.
+        </p>
+    </div>-->
+
 
     </section>
 
     <section id="proyectos">
 
-        <h2>Mis proyectos</h2>
-        <div class = "proyectos">
-            <h3>Proyectos en desarrollo</h3>
-            <div class="proyecto">
-                <h4>nombre proyecto</h4>
+    <h2>Mis proyectos</h2>
+    <div class = "proyectos">
+    <h3>Proyectos en desarrollo</h3>
+    <div class="proyecto">
+        <h4>nombre proyecto</h4>
+        <p>Maecenas augue augue, luctus in eros vitae, vehicula maximus enim. Vivamus imperdiet libero non lorem aliquet blandit. Nulla facilisi. Sed massa nibh, lacinia sed tincidunt sed, consectetur ut elit. Curabitur non metus pretium lorem aliquet tincidunt. Mauris mi dui, eleifend eu risus ac, lacinia feugiat est. Mauris imperdiet dui nisi, non semper sem dapibus at. Curabitur augue risus, venenatis sit amet neque ac, semper iaculis ligula. Suspendisse potenti. Suspendisse quis sagittis sap</p>
+        <h5>Actualizaciones</h5>
+        <ul>
+            <li>fecha:dd/mm/aa version: x.xx
                 <p>Maecenas augue augue, luctus in eros vitae, vehicula maximus enim. Vivamus imperdiet libero non lorem aliquet blandit. Nulla facilisi. Sed massa nibh, lacinia sed tincidunt sed, consectetur ut elit. Curabitur non metus pretium lorem aliquet tincidunt. Mauris mi dui, eleifend eu risus ac, lacinia feugiat est. Mauris imperdiet dui nisi, non semper sem dapibus at. Curabitur augue risus, venenatis sit amet neque ac, semper iaculis ligula. Suspendisse potenti. Suspendisse quis sagittis sap</p>
-                <h5>Actualizaciones</h5>
-                <ul>
-                    <li>fecha:dd/mm/aa version: x.xx
-                        <p>Maecenas augue augue, luctus in eros vitae, vehicula maximus enim. Vivamus imperdiet libero non lorem aliquet blandit. Nulla facilisi. Sed massa nibh, lacinia sed tincidunt sed, consectetur ut elit. Curabitur non metus pretium lorem aliquet tincidunt. Mauris mi dui, eleifend eu risus ac, lacinia feugiat est. Mauris imperdiet dui nisi, non semper sem dapibus at. Curabitur augue risus, venenatis sit amet neque ac, semper iaculis ligula. Suspendisse potenti. Suspendisse quis sagittis sap</p>
-                    </li>
-                </ul>
-            </div>
-        </div>
+            </li>
+        </ul>
+    </div>
+    </div>
 
-        <div class = "proyectos">
-            <h3>Proyectos finalizados</h3>
-            <div class = "proyectos">
-                <h3>Proyectos en desarrollo</h3>
-                <div class="proyecto">
-                    <h4>nombre proyecto</h4>
+    <div class = "proyectos">
+    <h3>Proyectos finalizados</h3>
+    <div class = "proyectos">
+        <h3>Proyectos en desarrollo</h3>
+        <div class="proyecto">
+            <h4>nombre proyecto</h4>
+            <p>Maecenas augue augue, luctus in eros vitae, vehicula maximus enim. Vivamus imperdiet libero non lorem aliquet blandit. Nulla facilisi. Sed massa nibh, lacinia sed tincidunt sed, consectetur ut elit. Curabitur non metus pretium lorem aliquet tincidunt. Mauris mi dui, eleifend eu risus ac, lacinia feugiat est. Mauris imperdiet dui nisi, non semper sem dapibus at. Curabitur augue risus, venenatis sit amet neque ac, semper iaculis ligula. Suspendisse potenti. Suspendisse quis sagittis sap</p>
+            <h5>Actualizaciones</h5>
+            <ul>
+                <li>fecha:dd/mm/aa version: x.xx
                     <p>Maecenas augue augue, luctus in eros vitae, vehicula maximus enim. Vivamus imperdiet libero non lorem aliquet blandit. Nulla facilisi. Sed massa nibh, lacinia sed tincidunt sed, consectetur ut elit. Curabitur non metus pretium lorem aliquet tincidunt. Mauris mi dui, eleifend eu risus ac, lacinia feugiat est. Mauris imperdiet dui nisi, non semper sem dapibus at. Curabitur augue risus, venenatis sit amet neque ac, semper iaculis ligula. Suspendisse potenti. Suspendisse quis sagittis sap</p>
-                    <h5>Actualizaciones</h5>
-                    <ul>
-                        <li>fecha:dd/mm/aa version: x.xx
-                            <p>Maecenas augue augue, luctus in eros vitae, vehicula maximus enim. Vivamus imperdiet libero non lorem aliquet blandit. Nulla facilisi. Sed massa nibh, lacinia sed tincidunt sed, consectetur ut elit. Curabitur non metus pretium lorem aliquet tincidunt. Mauris mi dui, eleifend eu risus ac, lacinia feugiat est. Mauris imperdiet dui nisi, non semper sem dapibus at. Curabitur augue risus, venenatis sit amet neque ac, semper iaculis ligula. Suspendisse potenti. Suspendisse quis sagittis sap</p>
-                        </li>
-                    </ul>
-                </div>
+                </li>
+            </ul>
         </div>
+    </div>
     </section>
 
     <section id="contactame">
-        <h2>Contactame</h2>
-        <p>Si deseas contacarme para realizar algún proyecto o duda puedes hacerlo enviando un mensaje mediante este formulario</p>
-        <textarea name="mail" id="mail" cols="60" rows="1">"Mail"</textarea>
+    <h2>Contactame</h2>
+    <p>Si deseas contacarme para realizar algún proyecto o duda puedes hacerlo enviando un mensaje mediante este formulario</p>
+    <textarea name="mail" id="mail" cols="60" rows="1">"Mail"</textarea>
 
-        <textarea name="asunto" id="asunto" cols="60" rows="1">"Asunto"</textarea>
+    <textarea name="asunto" id="asunto" cols="60" rows="1">"Asunto"</textarea>
 
-        <textarea name="cuerpo" id="cuerpo" cols="100" rows="10">"Ingrese su consulta"</textarea>
+    <textarea name="cuerpo" id="cuerpo" cols="100" rows="10">"Ingrese su consulta"</textarea>
 
-        <button>Enviar</button>
+    <button>Enviar</button>
 
     </section>
-</body>
 
 
-<footer>
+
+    <footer>
     <div class="botton-navigation-redes">
-        <nav class="main-redes">
-            <ul id="main-redes">
-                <li class="botton-level-entry-containter">
-                    <!-- <button type="button" id="quien-soy" class="botton-level-entry menu-togle" aria-controls="references-menu" aria-expanded="false">¿Quien soy?</button> -->
-                    <a class="botton-level-entry" href="index.html"> <img src="https://static.licdn.com/sc/h/2if24wp7oqlodqdlgei1n1520" alt="logo Linkedin"></a>
-                </li>
-                <li class="botton-level-entry-containter">
-                    <!-- <button type="button" id="quien-soy" class="botton-level-entry menu-togle" aria-controls="references-menu" aria-expanded="false">¿Quien soy?</button> -->
-                    <a class="botton-level-entry" href="proyectos.html"> <img src="https://abs.twimg.com/responsive-web/client-web/icon-svg.168b89da.svg" alt="logo Twitter"> </a>
-                </li>
-                <li class="botton-level-entry-containter">
-                    <!-- <button type="button" id="quien-soy" class="botton-level-entry menu-togle" aria-controls="references-menu" aria-expanded="false">¿Quien soy?</button> -->
-                    <a class="botton-level-entry" href="proyectos.html"> <img src="https://github.githubassets.com/favicons/favicon.png" alt="logo Git-Hub"> </a>
-                </li>
-            </ul>
-        </nav>
+    <nav class="main-redes">
+        <ul id="main-redes">
+            <li class="botton-level-entry-containter">
+                <!-- <button type="button" id="quien-soy" class="botton-level-entry menu-togle" aria-controls="references-menu" aria-expanded="false">¿Quien soy?</button> -->
+                <a class="botton-level-entry" href="index.html"> <img src="https://static.licdn.com/sc/h/2if24wp7oqlodqdlgei1n1520" alt="logo Linkedin"></a>
+            </li>
+            <li class="botton-level-entry-containter">
+                <!-- <button type="button" id="quien-soy" class="botton-level-entry menu-togle" aria-controls="references-menu" aria-expanded="false">¿Quien soy?</button> -->
+                <a class="botton-level-entry" href="proyectos.html"> <img src="https://abs.twimg.com/responsive-web/client-web/icon-svg.168b89da.svg" alt="logo Twitter"> </a>
+            </li>
+            <li class="botton-level-entry-containter">
+                <!-- <button type="button" id="quien-soy" class="botton-level-entry menu-togle" aria-controls="references-menu" aria-expanded="false">¿Quien soy?</button> -->
+                <a class="botton-level-entry" href="proyectos.html"> <img src="https://github.githubassets.com/favicons/favicon.png" alt="logo Git-Hub"> </a>
+            </li>
+        </ul>
+    </nav>
     </div>
-</footer>
+    </footer>
+</body>
 </html>
