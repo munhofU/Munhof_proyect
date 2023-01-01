@@ -25,18 +25,18 @@ margin-top: 10px;}
 	left: 0;
 	right: 0;
 	z-index: -1;
-	height: 90%;
-	width: 90%;
+	height: 100%;
+	width: 100%;
 	margin: 0 auto;
-	transform: scale(1);
+	transform: scale(1.05);
 }
 
 /*genera el efecto de dispercion con blur*/
 .back_light:after {
-	-webkit-filter: blur(3vw);
-	-moz-filter: blur(3vw);
-	-ms-filter: blur(3vw);
-	filter: blur(2vw);
+	-webkit-filter: blur(0vw);
+	-moz-filter: blur(0vw);
+	-ms-filter: blur(0vw);
+	filter: blur(1vw);
 	background: linear-gradient(270deg, #0fabff, #7e0fff);
 	background-size: 200% 200%;
 	animation: animateGlow 10s ease infinite;
