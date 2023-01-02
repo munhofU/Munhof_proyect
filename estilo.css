@@ -13,6 +13,11 @@ margin-top: 10px;}
 #carta-presentacion{margin-bottom: 10px;
 margin-top: 10px;}
 
+.seccion{
+margin-top: 10px;
+margin-bottom: 30px;
+padding-top: 10px;
+}
 
 /*efecto caja de luz extraido de*/
 /*https://www.desarrollolibre.net/blog/css/creando-una-caja-de-luz-difuminada-con-css*/
